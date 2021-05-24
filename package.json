@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "https://github.com/shqld/check-express-async-error-handling",
   "author": "Sho Miyamoto <me@shomiyamoto.dev>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "4"
+  }
 }
