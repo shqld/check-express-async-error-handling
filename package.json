@@ -1,15 +1,19 @@
 {
-  "name": "check-express-async-error-handling",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/shqld/check-express-async-error-handling",
-  "author": "Sho Miyamoto <me@shomiyamoto.dev>",
-  "license": "MIT",
-  "dependencies": {
-    "express": "4"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.7",
-    "prettier": "^2.3.0"
-  }
+    "name": "check-express-async-error-handling",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/shqld/check-express-async-error-handling",
+    "author": "Sho Miyamoto <me@shomiyamoto.dev>",
+    "license": "MIT",
+    "scripts": {
+        "start": "node src/index.js",
+        "dev": "nodemon -w src src/index.js"
+    },
+    "dependencies": {
+        "express": "4"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.7",
+        "prettier": "^2.3.0"
+    }
 }
