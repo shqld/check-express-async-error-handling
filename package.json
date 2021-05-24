@@ -1,0 +1,8 @@
+{
+  "name": "check-express-async-error-handling",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/shqld/check-express-async-error-handling",
+  "author": "Sho Miyamoto <me@shomiyamoto.dev>",
+  "license": "MIT"
+}
